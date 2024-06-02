@@ -1,0 +1,31 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "\"Browser based game\"",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArtKonX/ajs-homeworks-workspace-babel.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "ArtKonX",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArtKonX/ajs-homeworks-workspace-babel/issues"
+  },
+  "homepage": "https://github.com/ArtKonX/ajs-homeworks-workspace-babel#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.24.6",
+    "@babel/core": "^7.24.6",
+    "@babel/preset-env": "^7.24.6"
+  },
+  "dependencies": {
+    "core-js": "^3.37.1"
+  }
+}
